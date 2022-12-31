@@ -1,4 +1,4 @@
-# Scrapy settings for tradegeconomic project
+# Scrapy settings for idmb project
 #
 # For simplicity, this file contains only settings considered important or
 # commonly used. You can find more settings consulting the documentation:
@@ -7,14 +7,14 @@
 #     https://docs.scrapy.org/en/latest/topics/downloader-middleware.html
 #     https://docs.scrapy.org/en/latest/topics/spider-middleware.html
 
-BOT_NAME = 'tradegeconomic'
+BOT_NAME = 'idmb'
 
-SPIDER_MODULES = ['tradegeconomic.spiders']
-NEWSPIDER_MODULE = 'tradegeconomic.spiders'
+SPIDER_MODULES = ['idmb.spiders']
+NEWSPIDER_MODULE = 'idmb.spiders'
 
 
 # Crawl responsibly by identifying yourself (and your website) on the user-agent
-#USER_AGENT = 'tradegeconomic (+http://www.yourdomain.com)'
+#USER_AGENT = 'idmb (+http://www.yourdomain.com)'
 
 # Obey robots.txt rules
 ROBOTSTXT_OBEY = True
@@ -45,13 +45,13 @@ ROBOTSTXT_OBEY = True
 # Enable or disable spider middlewares
 # See https://docs.scrapy.org/en/latest/topics/spider-middleware.html
 #SPIDER_MIDDLEWARES = {
-#    'tradegeconomic.middlewares.TradegeconomicSpiderMiddleware': 543,
+#    'idmb.middlewares.IdmbSpiderMiddleware': 543,
 #}
 
 # Enable or disable downloader middlewares
 # See https://docs.scrapy.org/en/latest/topics/downloader-middleware.html
 #DOWNLOADER_MIDDLEWARES = {
-#    'tradegeconomic.middlewares.TradegeconomicDownloaderMiddleware': 543,
+#    'idmb.middlewares.IdmbDownloaderMiddleware': 543,
 #}
 
 # Enable or disable extensions
@@ -63,7 +63,7 @@ ROBOTSTXT_OBEY = True
 # Configure item pipelines
 # See https://docs.scrapy.org/en/latest/topics/item-pipeline.html
 #ITEM_PIPELINES = {
-#    'tradegeconomic.pipelines.TradegeconomicPipeline': 300,
+#    'idmb.pipelines.IdmbPipeline': 300,
 #}
 
 # Enable and configure the AutoThrottle extension (disabled by default)

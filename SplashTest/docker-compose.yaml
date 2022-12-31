@@ -1,0 +1,13 @@
+version: '3.10'
+
+services:
+  splash:
+    image: scrapinghub/splash
+    ports:
+      - "8050:8050"
+    volumes:
+      - ./data/filters:/etc/splash/filters
+      - ./data/js-profiles:/etc/splash/js-profiles
+      - ./data/lua_modules:/etc/splash/lua_modules
+      - ./data/proxy-profiles:/etc/splash/proxy-profiles
+    restart: unless-stopped
