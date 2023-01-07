@@ -1,0 +1,4 @@
+scrapy
+scrapy-splash
+selenium
+scrapy-selenium
